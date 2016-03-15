@@ -8,10 +8,18 @@ Add mask on your EditText's
 # How To
 
 ### Android Studio
+```
+allprojects {
+    repositories {
+        jcenter()
+        maven { url "https://jitpack.io" }
+    }
+}
+```
 
 ```
 dependencies {
-  compile 'br.com.jansenfelipe:androidmask:1.0.1'
+  compile 'com.github.maarqin:androidmask:2.0.0'
 }
 ```
 ### Eclipse ADT
